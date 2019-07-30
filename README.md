@@ -30,7 +30,9 @@ mysql> CREATE TABLE `Cars` (
 ) ;
 
 Gerekli paketlerin indirilmesi
+
 pip3 install -r requirements
 
 Projenin çalıştırılması
+
 python3 app.py
