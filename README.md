@@ -1,9 +1,10 @@
 # python-crawl-cars.com
 
-git clone 
+git clone https://github.com/ferhatguneri/python-crawl-cars.com.git
+cd python-crawl-cars.com
+mysql -u root -p
 
 Mysql entegrasyonunu kod içerisinde otomatik yapmadım. Bu yüzden veritabanı ve tabloyu oluşturmak gerekecek.
-
 Mysql içerisinde yapılackalar
 
 mysql> create database Cars;
@@ -26,7 +27,8 @@ mysql> CREATE TABLE `Cars` (
   PRIMARY KEY (`car_id`)
 ) ;
 
-
+Gerekli paketlerin indirilmesi
 pip3 install -r requirements
 
+Projenin çalıştırılması
 python3 app.py
